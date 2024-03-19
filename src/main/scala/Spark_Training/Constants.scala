@@ -8,5 +8,5 @@ object Constants {
       .appName("Spark Training")
       .master("local[1]")
       .getOrCreate()
-
+    val sc = spark.sparkContext
 }
