@@ -34,6 +34,7 @@ object SQLDistinct {
     println("Distinct count of department & salary : " + dropDisDF.count())
     dropDisDF.show(false)
 
+
   }
 
 }
