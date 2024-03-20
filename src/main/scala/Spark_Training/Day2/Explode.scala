@@ -24,6 +24,7 @@ object Explode {
 
     df.select($"Name", explode($"knownLanguages")).show(false)
 
+
     df.select($"Name", explode($"properties")).show(false)
 
     df.select($"Name", explode_outer($"knownLanguages")).show(false)

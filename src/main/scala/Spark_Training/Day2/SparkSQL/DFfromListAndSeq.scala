@@ -50,7 +50,7 @@ object DFfromListAndSeq {
     df.where(array_contains(df("languages"), "Java"))
       .show(false)
 
-    df.where(df("name.middlename") === "Mary")
+    df.where(df("name.middlename").equalTo("Mary"))
       .show(false)
   }
 

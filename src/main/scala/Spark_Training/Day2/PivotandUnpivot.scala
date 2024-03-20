@@ -15,11 +15,11 @@ object PivotandUnpivot {
     //    df.show()
 
     //pivot
-    //    val pivotDF = df.groupBy("Product").pivot("Country").sum("Amount")
-    //    pivotDF.show()
-    //    val countries = Seq("USA", "China", "Canada", "Mexico")
-    //    val pivotDF = df.groupBy("Product").pivot("Country", countries).sum("Amount")
-    //    pivotDF.show()
+//        val pivotDF = df.groupBy("Product").pivot("Country").sum("Amount")
+//        pivotDF.show()
+//        val countries = Seq("USA", "China", "Canada", "Mexico")
+//        val pivotDF = df.groupBy("Product").pivot("Country", countries).sum("Amount")
+//        pivotDF.show()
 
     //using two phase aggregation
     println("Code Example")

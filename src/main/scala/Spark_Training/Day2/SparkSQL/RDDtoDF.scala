@@ -26,7 +26,6 @@ object RDDtoDF {
     //    val rowRdd = rdd.map(attribute => Row(attribute._1, attribute._2))
     //    val dfFromRDD3 = spark.createDataFrame(rowRdd, schema)
     //    dfFromRDD3.show()
-
   }
 
 }

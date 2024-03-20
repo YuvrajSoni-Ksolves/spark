@@ -69,7 +69,10 @@ object WindowFunctions {
       .withColumn("min", min(col("salary")).over(windowSpecAgg))
       .withColumn("max", max(col("salary")).over(windowSpecAgg))
       .where(col("row") === 1).select("department", "avg", "sum", "min", "max")
-      .show()
+
+    df.explain()
+
+
   }
 
 }
